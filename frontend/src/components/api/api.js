@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://mern-memory-game-git-main-tayyabs-projects-9d235f55.vercel.app/api",
 });
 
 API.interceptors.request.use((config) => {
