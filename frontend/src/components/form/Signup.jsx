@@ -46,7 +46,7 @@ const Signupform = () => {
       const { confirmpassword, ...payload } = formData;
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/signup",
+        "https://mern-memory-game-git-main-tayyabs-projects-9d235f55.vercel.app/api/auth/signup",
         payload,
         { headers: { "Content-Type": "application/json" } }
       );
