@@ -5,7 +5,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import { setUsers } from "../../store/authslice";
+import { setUsers } from "../../store/authSlice";
 import { useNavigate, Link } from "react-router-dom";
 
 const schema = z.object({
